@@ -66,8 +66,8 @@ Input (128×128×3 flattened)
 
 | Model | Accuracy | Training Time | Inference Time |
 |-------|----------|--------------|----------------|
-| **CNN** | **~93%** | faster | faster |
-| FFNN | lower | slower | slower |
+| **CNN** | **~93%** | 1621.96 seconds | 7.3202 seconds |
+| FFNN | ~76% | 1273.77 seconds |  5.4022 seconds |
 
 CNN outperforms FFNN significantly — convolutional layers capture spatial features in MRI images that a flat FFNN cannot.
 
